@@ -11,16 +11,16 @@ function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-100">
 
-      {/* Navbar */}
+     
       <Navbar setSidebarOpen={setSidebarOpen} />
 
-      {/* Sidebar */}
+   
       <Sidebar
         sidebarOpen={sidebarOpen}
         setSidebarOpen={setSidebarOpen}
       />
 
-      {/* Main Content */}
+     
       <main className="pt-16 md:ml-64">
 
         <div className="p-6">
@@ -33,10 +33,10 @@ function Dashboard() {
             Welcome to your dashboard
           </p>
 
-          {/* Stats */}
+         
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
 
-            {/* Revenue */}
+          
             <div className="bg-white p-5 rounded-xl shadow">
               <p className="text-gray-500">
                 Total Revenue
@@ -52,7 +52,7 @@ function Dashboard() {
             </div>
 
 
-            {/* Users */}
+           
             <div className="bg-white p-5 rounded-xl shadow">
               <p className="text-gray-500">
                 Total Users
@@ -68,7 +68,7 @@ function Dashboard() {
             </div>
 
 
-            {/* Orders */}
+          
             <div className="bg-white p-5 rounded-xl shadow">
               <p className="text-gray-500">
                 Total Orders
@@ -84,7 +84,7 @@ function Dashboard() {
             </div>
 
 
-            {/* Growth */}
+         
             <div className="bg-white p-5 rounded-xl shadow">
               <p className="text-gray-500">
                 Growth
@@ -102,7 +102,7 @@ function Dashboard() {
           </div>
 
 
-          {/* Charts */}
+        
           <Chart />
 
         </div>

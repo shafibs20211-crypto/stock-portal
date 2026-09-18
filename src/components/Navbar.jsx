@@ -6,10 +6,10 @@ function Navbar({ setSidebarOpen }) {
 
       <div className="h-full flex items-center justify-between px-4">
 
-        {/* Left Side */}
+      
         <div className="flex items-center gap-4">
 
-          {/* Mobile Menu */}
+         
           <button
             onClick={() => setSidebarOpen(true)}
             className="md:hidden text-2xl"
@@ -23,7 +23,7 @@ function Navbar({ setSidebarOpen }) {
 
         </div>
 
-        {/* Search */}
+      
         <div className="hidden md:block w-80">
           <input
             type="text"
@@ -32,7 +32,7 @@ function Navbar({ setSidebarOpen }) {
           />
         </div>
 
-        {/* User */}
+       
         <UserButton />
 
       </div>

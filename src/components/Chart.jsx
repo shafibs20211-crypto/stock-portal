@@ -2,7 +2,7 @@ function Chart() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
 
-      {/* Line Chart */}
+     
       <div className="bg-white p-6 rounded-xl shadow">
         <h2 className="text-xl font-bold text-gray-800">
           Revenue Overview
@@ -19,7 +19,7 @@ function Chart() {
         </div>
       </div>
 
-      {/* Bar Chart */}
+     
       <div className="bg-white p-6 rounded-xl shadow">
         <h2 className="text-xl font-bold text-gray-800">
           Sales Overview
@@ -36,7 +36,7 @@ function Chart() {
         </div>
       </div>
 
-      {/* Area Chart */}
+     
       <div className="bg-white p-6 rounded-xl shadow">
         <h2 className="text-xl font-bold text-gray-800">
           Growth
@@ -53,7 +53,7 @@ function Chart() {
         </div>
       </div>
 
-      {/* Donut Chart */}
+      
       <div className="bg-white p-6 rounded-xl shadow">
         <h2 className="text-xl font-bold text-gray-800">
           Users

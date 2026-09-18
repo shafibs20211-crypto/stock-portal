@@ -27,13 +27,13 @@ createRoot(document.getElementById("root")).render(
 
         <Routes>
 
-          {/* Login Form */}
+        
           <Route
             path="/"
             element={<App />}
           />
 
-          {/* Dashboard */}
+         
           <Route
             path="/dashboard"
             element={<Dashboard />}
